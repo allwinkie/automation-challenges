@@ -1,0 +1,39 @@
+steps
+Pre-install
+1) install puppet on all remote systems 
+2) install facter on all remote systems 
+3) install openssh-server on all systems
+4) install package sshpass and package staf
+5) create a test user on all systems (simpletest/testme)
+6) install perl on all the systems 
+
+actual test 
+8) create a script that does the following
+	a) inputs the ip address as agrv
+	b) runs the facter -p on the remote machine 
+   	adds to a variable then replaces
+		# widge_ type
+	c) outputs to a file template_ipaddress_-date-.txt 
+9) procede with the next machine
+
+target machines
+192.168.0.131 - ubuntu-dragon 
+192.168.0.132 - lubuntu-4oosc
+
+staff is located
+/usr/local/staf
+
+perl script psudo code
+input arg v that has ip address
+open template.file for input
+open template.ipaddress.txt for output
+assign output of facter -p to a variable
+read template.file line by line
+write each line to template.txt 
+when the line with "# Widget" is detected 
+	skip  and output the variable containing facter -p
+close template.file
+close template.ipaddress.txt
+
+
+
