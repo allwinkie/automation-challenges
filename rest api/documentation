@@ -1,0 +1,86 @@
+
+this challenge was done wth three files and a mysql db on a ubuntu 
+my responce is made up of 6 file
+
+dbinitServer.py  - server and api  
+documentation    - this file
+file.txt         - sample output
+dbinit1.py       - db init 
+testcode.pl      - perl test
+README.md        - assignment 
+
+
+db instructions
+I added all the files I need with aptitude that downloaded and installed the packages:
+
+http://www.wikihow.com/Create-a-Database-in-MySQL
+
+after install was locked out so I had to stop and reset the table 
+   service mysql stop
+/usr/bin/mysqld_safe --skip-grant-tables &
+   had to add users 
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost'
+    ->     IDENTIFIED BY 'some_pass' WITH GRANT OPTION;	
+   had to add table
+mysql> create database test
+    -> ;
+Query OK, 1 row affected (0.00 sec)
+    restart server 
+service mysql restart
+
+    verify the table 
+
+mysql> use test
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+mysql> show tables;
++----------------+
+| Tables_in_test |
++----------------+
+| words          |
++----------------+
+1 row in set (0.00 sec)
+
+    clear the table
+mysql> truncate words;
+    verify its empty
+mysql> select * from test.words;
+Empty set (0.01 sec)
+
+mysql> exit;
+Bye
+
+to run the webserver/rest server 
+requires 2 files 
+
+dbinit1.py  - is imported as a module into the server ( really odd but looks like its required by sqlalchemy) 
+dbinitServer.py
+
+run the server 
+python  dbinitServer.py
+
+check the server output to the console
+
+perl testcode.pl 
+
+check the server output to
+
+perl testcode.pl >>file.txt 2>&1
+
+output file included 
+
+
+
+for manual checks - use the following curl statements 
+`curl -X PUT -H "Content-Type: application/json" -d '{"word":"ass"}' http://localhost:8080/word/WORDNAME`
+`curl -X PUT -H "Content-Type: application/json" -d '{"word":"donkey is an"}' http://localhost:8080/word/WORDNAME`
+`curl -X PUT -H "Content-Type: application/json" -d '{"word":"!@#$%^&*()"}' http://localhost:8080/word/WORDNAME`
+`curl -X PUT -H "Content-Type: application/json" -d '{"word":"bob"}' http://localhost:8080/word/WORDNAME`
+`curl -X PUT -H "Content-Type: application/json" -d '{"word":"dave"}' http://localhost:8080/word/WORDNAME`
+`curl http://localhost:8080/words`
+`curl http://localhost:8080/words/WORDNAME/`
+
+
+
+

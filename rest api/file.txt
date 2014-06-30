@@ -1,0 +1,652 @@
+curl -X PUT -H Content-Type:application/json -d '{"word":"tellme"}' http://localhost:8080/word/WORDNAME
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1568  100  1551  100    17   130k   1467 --:--:-- --:--:-- --:--:--  137k
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+ error statement <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+
+
+ loop number is 1 
+curl -X PUT -H Content-Type:application/json -d '{"word":"BiGb0oDy"}' http://localhost:8080/word/WORDNAME
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1570  100  1551  100    19   136k   1709 --:--:-- --:--:-- --:--:--  151k
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+ error statement <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+
+
+ loop number is 2 
+curl -X PUT -H Content-Type:application/json -d '{"word":"!@#$%^&*"}' http://localhost:8080/word/WORDNAME
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1570  100  1551  100    19   150k   1889 --:--:-- --:--:-- --:--:--  168k
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+ error statement <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+
+
+ loop number is 3 
+curl -X PUT -H Content-Type:application/json -d '{"word":"but crack"}' http://localhost:8080/word/WORDNAME
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1571  100  1551  100    20   155k   2046 --:--:-- --:--:-- --:--:--  168k
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+ error statement <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+
+
+ loop number is 4 
+curl -X PUT -H Content-Type:application/json -d '{"word":"DROP TABLE"}' http://localhost:8080/word/WORDNAME
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1572  100  1551  100    21   120k   1671 --:--:-- --:--:-- --:--:--  126k
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+ error statement <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+
+
+ loop number is 5 
+curl -X PUT -H Content-Type:application/json -d '{"word":"ALL CAPS"}' http://localhost:8080/word/WORDNAME
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1570  100  1551  100    19   144k   1816 --:--:-- --:--:-- --:--:--  151k
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+ error statement <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+
+
+ loop number is 6 
+curl -X PUT -H Content-Type:application/json -d '{"word":""}' http://localhost:8080/word/WORDNAME
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1562  100  1551  100    11   154k   1125 --:--:-- --:--:-- --:--:--  168k
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+ error statement <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.4-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "dbinitServer.py", line 23, in word
+    return self.RestPut(*args, **kwargs)
+  File "dbinitServer.py", line 47, in RestPut
+    if _char in restrictedCars:
+NameError: global name 'restrictedCars' is not defined
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.4</a></span>
+    </div>
+    </body>
+</html>
+
+
+ loop number is 7 
+ section 1 - check for single words
+  two positive and four negative tests - total of 6  5 are the number of passes
+******************************************************************************************************************************************************************************* END SECTION 1 ********************************************************************************************************************************************************************************curl -X GET http://localhost:8080/words/tellme
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    13  100    13    0     0    995      0 --:--:-- --:--:-- --:--:--  1000
+{"tellme": 0}tellme the value to get checked 0 
+tellme succes in loop 0 
+ loop number is 0 
+curl -X GET http://localhost:8080/words/BiGb0oDy
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   1430      0 --:--:-- --:--:-- --:--:--  1666
+{"BiGb0oDy": 0}BiGb0oDy the value to get checked 1 
+BiGb0oDy succes in loop 1 
+ loop number is 1 
+curl -X GET http://localhost:8080/words/!@#$%^&*
+sh: 1: curl_examples.txt: not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     9  100     9    0     0    815      0 --:--:-- --:--:-- --:--:--   900
+{"!@": 0}!@#$%^&* the value to get checked 2 
+!@#$%^&* succes in loop 2 
+ loop number is 2 
+curl -X GET http://localhost:8080/words/but crack
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    10  100    10    0     0    920      0 --:--:-- --:--:-- --:--:--  1000
+curl: (6) Could not resolve host: crack
+{"but": 0}but crack the value to get checked 3 
+but crack succes in loop 3 
+ loop number is 3 
+curl -X GET http://localhost:8080/words/DROP TABLE
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    11  100    11    0     0   1006      0 --:--:-- --:--:-- --:--:--  1100
+curl: (6) Could not resolve host: TABLE
+{"DROP": 0}DROP TABLE the value to get checked 4 
+DROP TABLE succes in loop 4 
+ loop number is 4 
+curl -X GET http://localhost:8080/words/ALL CAPS
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    10  100    10    0     0    874      0 --:--:-- --:--:-- --:--:--   909
+curl: (6) Could not resolve host: CAPS
+{"ALL": 0}ALL CAPS the value to get checked 5 
+ALL CAPS succes in loop 5 
+ loop number is 5 
+curl -X GET http://localhost:8080/words/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0    181      0 --:--:-- --:--:-- --:--:--   200
+{} the value to get checked 6 
+ loop number is 6 
+ section 1 - check for single words
+  two positive and four negative tests - total of 6  6 are the number of passes
+******************************************************************************************************************************************************************************* END SECTION 2 ********************************************************************************************************************************************************************************
