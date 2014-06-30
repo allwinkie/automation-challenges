@@ -43,8 +43,8 @@ cat puppet_access_ssl.log | grep -v "1.1\" 200" | wc -l
 
  * A breakdown of how many times such requests were made by IP address
 perl script - scraperAndCounter.pl 
-
- perl scraperAndCounter.pl puppet_access_ssl.log 
+syntax   perl scraperAndCounter.pl puppet_access_ssl.log
+ 
 10.101.3.205                    202
 10.114.199.41                   202
 10.118.74.250                   2
