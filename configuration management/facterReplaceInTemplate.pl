@@ -5,7 +5,11 @@ my $date = strftime "%m-%d-%Y", localtime;
 print "$date\n";
 
 $targetIP=$ARGV[0];
-
+if ($targetIP eq "")
+{
+ print" syntax 'perl facterReplaceInTemplate.pl xxx.xxx.xxx.xxx'\n";
+die;
+}
 my $pwd = `pwd` ;
 chomp($pwd);
 $templateWithFile = $pwd.'/template.file';

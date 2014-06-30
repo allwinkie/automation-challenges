@@ -1,0 +1,88 @@
+option 1234
+speed 88mph
+capacitor_type flux
+widget_type X
+architecture => i386
+augeasversion => 1.2.0
+blockdevice_fd0_size => 0
+blockdevice_sda_model => Maxtor 6B200R0
+blockdevice_sda_size => 203928109056
+blockdevice_sda_vendor => ATA
+blockdevice_sdb_model => WDC WD1600JB-00G
+blockdevice_sdb_size => 160041885696
+blockdevice_sdb_vendor => ATA
+blockdevice_sdc_model => External USB 3.0
+blockdevice_sdc_size => 2000398931968
+blockdevice_sdc_vendor => Toshiba
+blockdevice_sr0_model => CD-ROM GCR-8481B
+blockdevice_sr0_size => 716177408
+blockdevice_sr0_vendor => HL-DT-ST
+blockdevices => fd0,sda,sdb,sdc,sr0
+facterversion => 1.7.5
+filesystems => ext2,ext3,ext4,iso9660,vfat
+hardwareisa => i686
+hardwaremodel => i686
+hostname => lubuntu-desktop-dragon
+id => simpletest
+interfaces => eth0,lo
+ipaddress => 192.168.0.131
+ipaddress_eth0 => 192.168.0.131
+ipaddress_lo => 127.0.0.1
+is_virtual => false
+kernel => Linux
+kernelmajversion => 3.13
+kernelrelease => 3.13.0-29-generic
+kernelversion => 3.13.0
+lsbdistcodename => trusty
+lsbdistdescription => Ubuntu 14.04 LTS
+lsbdistid => Ubuntu
+lsbdistrelease => 14.04
+lsbmajdistrelease => 14
+macaddress => 00:11:5b:2f:9d:5a
+macaddress_eth0 => 00:11:5b:2f:9d:5a
+memoryfree => 491.18 MB
+memoryfree_mb => 491.18
+memorysize => 1.23 GB
+memorysize_mb => 1255.36
+memorytotal => 1.23 GB
+mtu_eth0 => 1500
+mtu_lo => 65536
+netmask => 255.255.255.128
+netmask_eth0 => 255.255.255.128
+netmask_lo => 255.0.0.0
+network_eth0 => 192.168.0.128
+network_lo => 127.0.0.0
+operatingsystem => Ubuntu
+operatingsystemrelease => 14.04
+osfamily => Debian
+path => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+physicalprocessorcount => 1
+processor0 => Intel(R) Pentium(R) 4 CPU 2.40GHz
+processorcount => 1
+ps => ps -ef
+puppetversion => 3.4.3
+rubysitedir => /usr/local/lib/site_ruby/1.9.1
+rubyversion => 1.9.3
+selinux => false
+sshdsakey => AAAAB3NzaC1kc3MAAACBAPdOhGLKPPnUKWMxkAV0/qi8QMJxTNcQYuUq908qaVyY0R3UYHugIPKkGKzXmTxr3erH5V3upQYQHgaIqGcDNkigE7GCdvddzVukiixGhAGoS5MHcwQ8mENI0UIdG8CzvQ8/m63W8ocmrCaTOWrtL3jXB5FKmHP+FesIW6P+eJkXAAAAFQDY9feHSJnp3VCrG9UBpjdHXgxEYwAAAIEA6pBV4ERqaCPN29ZzCf8r7TYc/uyjSnyZLKlXRWccBKvBqvVvJtIrFQDOYD4uOotuLDwoFPyd5oZD6ieDc9YwV1rSGi867Wa84la1LjsxxtUAeL+cjzXbX13sEk33s9VpQA35EUHJ31GI5v/q/r2eAROIDuB2LhfGPh6l4hldJPAAAACBAI7nzt5C8/2zfrRvGzhOswqhw556XNPsRzO+TPrOSbb0UtckvqXbeX/Ys8fq6ImSS3Falj5p0qCYSItE4H8ehnwfBebLr872qZTa7ydTqDG6UqEMDUxZg4CgxU5Klsi9KNsSLd754ylVIF1GyIy8SGT/PQPdToepPZZ7qLWhCxuY
+sshecdsakey => AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGtKzM1e8NCZM4aZLll6qm4GTPYMkRAp/7pJU7Tmjy13ZklIXOvzHP7GlhAvaqH8wU2ylbtNi+RVxtVU8VFQUco=
+sshfp_dsa => SSHFP 2 1 0b4471d72fb89bd2652eed77bfc6b0c2b31b41c5
+SSHFP 2 2 000499b20c7a85c0cd58f4ba119fad341a4ca26835dfbd1e75b43f1e1cd7a816
+sshfp_ecdsa => SSHFP 3 1 2334a8afdea543fb00d90f42e9916ce8f764ad2d
+SSHFP 3 2 7c75d988cdc1f342a567e4f721f30f7feb6c5ede3726ba6e6d3a3311ca78b4f4
+sshfp_rsa => SSHFP 1 1 82b567201264a586f947817c29c232418bec59be
+SSHFP 1 2 47faae31541670066eafe5253f8ec7592787cbf09046f4416cc005f2de978028
+sshrsakey => AAAAB3NzaC1yc2EAAAADAQABAAABAQDTqpcPqXgOE0IHPMZP1+kFA0FbHssGf9f6MFIh0CPpdZRA21pgOWm0fIp0Qv836EKS8sNvljizzFBG8pDfPVl0NdgvYigViM+c89fV+khJKOB1n73vB5Xx8QINpC0gAyuZqkHY7g6HHBijIYYTHn/Y5kUUCicCbPzQGK3sgsTl+84tVE+9E+Df9DvXBZz/H6+I1M9qUy8XZ5S2DwDaRZbK+JV8xG7A1xIEqBcM5qwNJJca3ZnAcqDOTrFernLT2a5SIUCm52G35+qiKOJY5NoJKiTE+vmWUrer2pOMrQ6SxobqCxy527ObB5dOv0nt2d09VBLvTcZo9rDXYrX8E7gh
+swapfree => 1.22 GB
+swapfree_mb => 1248.42
+swapsize => 1.25 GB
+swapsize_mb => 1277.00
+timezone => EDT
+uniqueid => 00000000
+uptime => 5 days
+uptime_days => 5
+uptime_hours => 126
+uptime_seconds => 456692
+virtual => physical
+model delorean
+avoid shopping_mall_parking_lots

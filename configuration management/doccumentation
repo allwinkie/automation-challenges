@@ -1,4 +1,4 @@
-steps
+steps:
 Pre-install
 1) install puppet on all remote systems 
 2) install facter on all remote systems 
@@ -16,6 +16,11 @@ actual test
 	c) outputs to a file template_ipaddress_-date-.txt 
 9) procede with the next machine
 
+10) there are two files that are sample output 
+template192.168.0.132-06-29-2014.txt
+template192.168.0.131-06-29-2014.txt
+
+------------------------------------------- general notes -------------------------------------------------
 target machines
 192.168.0.131 - ubuntu-dragon 
 192.168.0.132 - lubuntu-4oosc

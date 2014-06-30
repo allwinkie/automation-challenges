@@ -1,0 +1,86 @@
+option 1234
+speed 88mph
+capacitor_type flux
+widget_type X
+architecture => i386
+augeasversion => 1.2.0
+blockdevice_fd0_size => 0
+blockdevice_sda_model => WDC WD400BB-75FR
+blockdevice_sda_size => 40000000000
+blockdevice_sda_vendor => ATA
+blockdevice_sdb_model => WDC WD1600JB-53E
+blockdevice_sdb_size => 160041885696
+blockdevice_sdb_vendor => ATA
+blockdevice_sr0_model => DVDRW LDW-411S
+blockdevice_sr0_size => 1073741312
+blockdevice_sr0_vendor => LITE-ON
+blockdevices => fd0,sda,sdb,sr0
+facterversion => 1.7.5
+filesystems => ext2,ext3,ext4,vfat
+hardwareisa => i686
+hardwaremodel => i686
+hostname => lubuntu-400sc
+id => simpletest
+interfaces => eth0,lo
+ipaddress => 192.168.0.132
+ipaddress_eth0 => 192.168.0.132
+ipaddress_lo => 127.0.0.1
+is_virtual => false
+kernel => Linux
+kernelmajversion => 3.13
+kernelrelease => 3.13.0-29-generic
+kernelversion => 3.13.0
+lsbdistcodename => trusty
+lsbdistdescription => Ubuntu 14.04 LTS
+lsbdistid => Ubuntu
+lsbdistrelease => 14.04
+lsbmajdistrelease => 14
+macaddress => 00:0c:f1:bf:31:db
+macaddress_eth0 => 00:0c:f1:bf:31:db
+memoryfree => 2.23 GB
+memoryfree_mb => 2285.54
+memorysize => 2.96 GB
+memorysize_mb => 3029.26
+memorytotal => 2.96 GB
+mtu_eth0 => 1500
+mtu_lo => 65536
+netmask => 255.255.255.128
+netmask_eth0 => 255.255.255.128
+netmask_lo => 255.0.0.0
+network_eth0 => 192.168.0.128
+network_lo => 127.0.0.0
+operatingsystem => Ubuntu
+operatingsystemrelease => 14.04
+osfamily => Debian
+path => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+physicalprocessorcount => 1
+processor0 => Intel(R) Pentium(R) 4 CPU 2.80GHz
+processor1 => Intel(R) Pentium(R) 4 CPU 2.80GHz
+processorcount => 2
+ps => ps -ef
+puppetversion => 3.4.3
+rubysitedir => /usr/local/lib/site_ruby/1.9.1
+rubyversion => 1.9.3
+selinux => false
+sshdsakey => AAAAB3NzaC1kc3MAAACBAPO9iPNVTa65x+9XYaNpIPvO4H9dKOTt63YhjuMaqUl3WFEF3j6CjPYVi+rKB4bNhCCpOleWn67836Q1eiJpsgxKtmNTvMDVLXQfVCj2E1evNbuEI0r9QXysGwxaWEbqmKI3mLaVC1Q6eevt9k4mEwWititIupIPALE7pOnkJC5FAAAAFQDsJiNs6BQ4O8/B6tI4FlJbYHvvlQAAAIA2Hm7E+6yrau5/P8V6N/er74tL1OTFSxnnic5i4KuAvq4BdfuA51Ff7OxeDDvrPvbfoB4JTFMfFfL/cJDIQHOAS1TSUapjXqr6I5TKKGR3nG6rkHxa3KoHH4epFkTk0yyWG0JdLXghSME/05MGkzWGWpZ80tbMxR1/Gs8uLMRXgAAAAIEAltuIbgYKnwSXseLfaY5TEKo5oNTKCfHwaSDau/8w2gnkXWWG9R0zTXT7LOQ7M+KykimX4HlFgoKMTum5VeFJVBz2XCFhCKa5wsk0jyqVaaW7xAwqrXERgA+qjl2nv0QnbMHUrRGCvCsuRKnNdmJD/QN5K9uiKCr7eEpGzbp9CPM=
+sshecdsakey => AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFoZU0JtiY1ygO4aIOnB/Qsj7GHQvy6MmjRDG0ib7p3XY/X/NC4CxGkwm9G/T8Yu0l+JBzb+Fdkyk088YyeFouw=
+sshfp_dsa => SSHFP 2 1 1c3f62d256d218012fd813fd21600ec228411151
+SSHFP 2 2 2e6fd92be0772a37dd201be84ae748dfdca63bfa3bb3c57dc6d0f900354e86ec
+sshfp_ecdsa => SSHFP 3 1 d498570419fd282ace4eed6a688535c3371f9f77
+SSHFP 3 2 e6033960397f808f93382508e312c971944d48adcfaf31ea64fa05b7f0e4e672
+sshfp_rsa => SSHFP 1 1 cef1e4f9d9015636ae5d77a72d10755375a8603f
+SSHFP 1 2 d22d98abda0d96ed12de02268042f7e0b6200c95a1bb1ca02b0537d2dbcf7c09
+sshrsakey => AAAAB3NzaC1yc2EAAAADAQABAAABAQDGXntZN+0+E1OIDnEkak37CuqljPRXPIHksgllsSFt1UiVtm4LbMzxnFE6qUnDiq7l1QsrwljdpRxbkAwSUmbVLxVy4A5goJWD/d+67li6g6Pat6ECDVse0LqvSpPteovaJQ0jow6696SA1PgiQ3WL9lDSXJjR9PKmHeqSQHMJKnV+Nk85bTwo5mPt/Qo7jzUMd48sZWBo7rqGFRSYksbxA3i2G0IWHCVp3EfmCM42kQCBiHVnfio30QAJ74A+bgL9NgeUx1NaWTa07aM4Z+U+YpWWFYBvF6HRzrxjmOAQv4/lqaAkxBDXbleRhRN952Xl4kQ1nUSvE5LvXv6Wlwm1
+swapfree => 3.00 GB
+swapfree_mb => 3069.77
+swapsize => 3.00 GB
+swapsize_mb => 3070.00
+timezone => EDT
+uniqueid => 00000000
+uptime => 5 days
+uptime_days => 5
+uptime_hours => 126
+uptime_seconds => 456167
+virtual => physical
+model delorean
+avoid shopping_mall_parking_lots
