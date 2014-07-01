@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # sqlalchemy section
 import dbinit1 as dbcall
-# python web fremework
+# python web framework
 import cherrypy
 # json example http://pymotw.com/2/json/
 import json
@@ -16,10 +16,13 @@ for BadCharacters in string.digits + string.punctuation:
     R_C[BadCharacters] = None
     
 class RestServerApi:
+#http://tools.cherrypy.org/wiki/RestfulDispatch
     @cherrypy.expose
     def word(self, *args, **kwargs):
         if cherrypy.request.method == 'PUT':
+		# if its a put method - send it to restput ( this file)
             return self.RestPut(*args, **kwargs)
+			# send the arg and kwarg to rest put 
         else:
             raise cherrypy.HTTPError(501, 'Invalid request for URL.')
             
@@ -38,46 +41,53 @@ class RestServerApi:
             return json.dumps( dbcall.Words.getAll() )
         name = args[0]
         
-        cnt = dbcall.Words.getWordCount(name)
-        if cnt == None:
-            cnt = 0
-        print "get request with no words to :/words/WORDNAME  gives the %s == %s" % (name, cnt)
-        return json.dumps( {name: cnt} )
+        wordcount = dbcall.Words.getWordCount(name)
+        if wordcount == None:
+            wordcount = 0
+        print "get request with no words to :/words/WORDNAME  gives the %s == %s" % (name, wordcount)
+        return json.dumps( {name: wordcount} )
         
 
     def RestPut(self, *args, **kwargs):
         try:
             WORDNAME = urllib.unquote(args[0])
+			#Replace %xx escapes by their single-character equivalent.
+			#Example: unquote('/%7Econnolly/') yields '/~connolly/'.
+			# test to see if its a word 
         except:
             raise cherrypy.HTTPError(501, 'Invalid URL, must specify WORDNAME')
         
         try:
-            reqObj = json.loads(cherrypy.request.body.read())
+#http://tools.cherrypy.org/wiki/JsonMimeType?format=txt  
+#http://nullege.com/codes/show/src%40p%40e%40personis-0.933%40personis%40server%40server.py/430/cherrypy.request.body.read/python
+            json_object = cherrypy.request.body.read()
+	    json_string = json.loads(json_object)
         except:
             raise cherrypy.HTTPError(501, 'Invalid JSON body.')
-        
-        if type(reqObj) != dict:
+# https://github.com/jbtule/keyczar-python2to3/blob/master/python/keyczar/keydata.py
+        if type(json_string) != dict:
+# check to see if its actually a key-pair
             raise cherrypy.HTTPError(501, 'Invalid JSON data structure. Expecting type hash.')
-        
-        if not 'word' in reqObj:
+# from the curl input -d { word : xxxxx} - check the first part to see if it qualifies 
+        if not 'word' in json_string:
             raise cherrypy.HTTPError(501, "Expecting hash key 'word' in JSON body, but wasn't found")
-        
-        if not len( reqObj['word'].split() ) == 1:
+        word_split=json_string['word'].split() 			
+        if not len(word_split) ==1:
+            raise cherrypy.HTTPError(501, 'PUT requests must be one word in length')
+        WORDNAME_Split = WORDNAME.split()        
+        if not len(WORDNAME_Split) == 1:
             raise cherrypy.HTTPError(501, 'PUT requests must be one word in length')
         
-        if not len( WORDNAME.split() ) == 1:
-            raise cherrypy.HTTPError(501, 'PUT requests must be one word in length')
-        
-        for _char in reqObj['word']:
+        for _char in json_string['word']:
             if _char in restrictedCars:
-                raise cherrypy.HTTPError(501, '%s is not a word. Contains invalid character.' % reqObj['word'] )
+                raise cherrypy.HTTPError(501, '%s is not a word. Contains invalid character.' % json_string['word'] )
             
         for _char in WORDNAME:
             if _char in restrictedCars:
                 raise cherrypy.HTTPError(501, '%s restricted.' % WORDNAME )
             
-        cnt = dbcall.Words.putWord(reqObj['word'])
-        cnt = dbcall.Words.putWord(WORDNAME)
+        wordcount = dbcall.Words.putWord(json_string['word'])
+        wordcount = dbcall.Words.putWord(WORDNAME)
         
         
     
