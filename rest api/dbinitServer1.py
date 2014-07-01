@@ -38,7 +38,8 @@ class RestServerApi:
     
     def RestGet(self, *args, **kwargs):
         if len(args) == 0:
-            return json.dumps( dbcall.Words.getAll() )
+            WordsDbcall=dbcall.Words.getAll()
+            return json.dumps(WordsDbcall)
         name = args[0]
         
         wordcount = dbcall.Words.getWordCount(name)
